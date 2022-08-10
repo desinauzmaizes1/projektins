@@ -1,0 +1,135 @@
+h2, h4, a, h3, .virsraksts{
+    font-family: Helvetica;
+    
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+header {
+    background-color: black;
+    max-height: 69px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 1275px;
+    margin-left: -10;
+    margin-right: -10;
+    padding-left: 0;
+    border-left: 0;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    z-index: 1000;
+    top: 0;
+}
+
+.logo {
+    padding: 10px;
+    height: 50px;
+    width: auto;
+}
+
+.breadcrumbs > li {
+    display: inline;
+}
+
+.breadcrumbs li::after{
+    content:" > ";
+    overflow: hidden;
+    color: black;
+    font-size: larger;
+}
+
+.breadcrumbs {
+    margin-right: 10px;
+    text-decoration: underline;
+    
+}
+
+.breadcrumbs a{
+    color: seashell;
+    
+}
+
+/* burka */
+
+.burka {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*yje25s*_ga*ODYxMjkzMDI2LjE2NDM4MTI4MDc.*_ga_3LRZM6TM9L*MTY1NDY3NTcyMy43Mi4xLjE2NTQ2NzU3NjcuMTY.');
+    top: 60px;
+    position: relative;
+    margin-left: 25px;
+    height: 700px;
+    width: 1200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.virsraksts {
+    height: max-content;
+    width: 1250px;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+body{
+    background-color: black;
+    opacity: 0.9;
+}
+
+/*   products   */
+
+.products {
+    width: 1000px;
+    text-align: center;
+    margin-left: 140px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.bildite {
+    height: 200px;
+    width: 300px;
+}
+
+.box h4 {
+    margin-top: 10px;
+}
+
+/* locations */
+
+.locations {
+    height: 500px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1uibxhg*_ga*ODYxMjkzMDI2LjE2NDM4MTI4MDc.*_ga_3LRZM6TM9L*MTY1NTQwNjA0NC43Ny4xLjE2NTU0MDYzMjEuNA..');
+    width: 1200px;
+    margin: 0 20px;
+}
+.locations .boxes {
+    
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 500px;
+}
+
+.locations .box {
+    width: 300px;
+    text-align: center;
+    background-color: black;
+    
+}
+
+.locations h2{
+    background: none;
+}
